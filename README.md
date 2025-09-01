@@ -6,7 +6,7 @@ This repository contains Python codes for the paper:
 
 ## Introduction
 
-In this paper, 
+In this paper, we propose a scalable framework for similarity queries in vector databases under differential privacy. Our design incorporates differentially private dimensionality reduction, which preserves the utility of pairwise distance computations, with privacy-preserving indexing via differentially private clustering, thereby improving both accuracy and efficiency. 
 
 ## Datasets
 We use 4 real-world datasets, and you can click on the `Name` to navigate to the download link.
@@ -47,6 +47,8 @@ Argument descriptions:
 - `--topk`: Number of nearest items to return per query
 - `--k1`: Number of clusters
 - `--file_id`: Dataset index (1~4, corresponding to `data1.csv`, etc.)
+
+Run the program `caltime.py` with the same method to get the run time.
 
 ## Output
 
